@@ -2,11 +2,32 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "Sitemap"
+    url: /sitemap/
+
+# Way to create a side bar https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu
+docs:
+  - title: Robotics
+    children:
+      - title: "Topic 1"
+      url: /docs/topic1/
+  
+  - title: Software
+    children:
+      - title: "C++"
+      url: /docs/cpp/
+  
+  - title: Algorithms
+    children:
+      - title: "Special topics"
+      url: /docs/special_topics/
+
+## Import by using in yaml file
+# sidebar:
+  # nav: "docs"

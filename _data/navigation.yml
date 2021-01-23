@@ -3,7 +3,7 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /about/
   - title: "Posts"
     url: /year-archive/
   - title: "Collections"
@@ -16,17 +16,17 @@ docs:
   - title: Robotics
     children:
       - title: "Topic 1"
-      url: /docs/topic1/
+        url: /docs/topic1/
   
   - title: Software
     children:
       - title: "C++"
-      url: /docs/cpp/
+        url: /docs/cpp/
   
   - title: Algorithms
     children:
       - title: "Special topics"
-      url: /docs/special_topics/
+        url: /docs/special_topics/
 
 ## Import by using in yaml file
 # sidebar:

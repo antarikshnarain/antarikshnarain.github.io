@@ -1,1 +1,6 @@
 _site/*
+_site/feed.xml
+_site/index.html
+_site/sitemap.xml
+_site/assets/css/main.css
+_site/assets/js/lunr/lunr-store.js

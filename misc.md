@@ -12,6 +12,7 @@
     toc: true
     toc_label: "Title for TOC"
     toc_icon: "cog" # FA icons can be used
+    toc_sticky: false #Stick table of contents to top of screen
     ```
 
 2. Excerpt
@@ -53,3 +54,11 @@
         - title: "Another Title"
             text: "More text here."
     ```
+
+## Collections
+
+1. Refer the following [link](https://jekyllrb.com/docs/collections/)
+
+2. Working with media [link](https://mmistakes.github.io/minimal-mistakes/docs/helpers/)
+
+3. Utility classes [link](https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/)

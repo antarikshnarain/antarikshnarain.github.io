@@ -1,0 +1,151 @@
+\documentclass[10pt]{article}
+\usepackage{scimisc-cv}
+\usepackage{hyperref}
+\usepackage{multicol}
+
+\title{Antariksh Narain 1 Page Resume}
+\author{Antariksh Narain}
+\date{September 2020}
+
+%% These are custom commands defined in scimisc-cv.sty
+\cvname{Antariksh Narain}
+\cvpersonalinfo{
+Los Angeles, CA \cvinfosep 
+\href{tel:12132923522}{213-292-3522} \cvinfosep
+\href{mailto:antarikshnarain@gmail.com}{antarikshnarain@gmail.com} \cvinfosep
+\href{https://www.linkedin.com/in/antarikshnarain/}{linkedin} \cvinfosep
+\href{https://www.antarikshnarain.com}{Website}
+}
+
+\begin{document}
+
+% \maketitle %% This is LaTeX's default title constructed from \title,\author,\date
+
+\makecvtitle %% This is a custom command constructing the CV title from \cvname, \cvpersonalinfo
+
+\section{Education}
+
+\begin{itemize}
+\item \textbf{Master of Science}, Computer Science with Intelligent Robotics, University of Southern California, GPA 3.44/4. \null\hfill \textbf{July 2019-May 2021}
+\item \textbf{Bachelor of Technology}, Computer Science and Engineering, Vellore Institute of Technology, GPA 8.94/10. \null\hfill \textbf{July 2013-May 2017}
+\end{itemize}
+
+\section{Research Experience}
+
+%% Another custom command provide by scimisc-cv.sty.
+%% First two argumetns are typeset on the first line in bold; 3rd and 4th arguments are typset on second line in italics. 2nd, 3rd and 4th arguments are OPTIONAL
+\cvsubsection{Space Engineering Research Center, Graduate Student Researcher}[September 2019-Present]
+
+\begin{itemize}
+\item \textbf{Publications:} Generation-II Lunar entry approach platform for research on ground: A Novel Concept For Low Cost, \textbf{High Longevity Autonomous Operations} on the moon - \href{https://iac2020.vfairs.com/}{71st IAC}.
+\item Build a Lunar lander (LEAPFROG) prototype with a team as part of NASA's Artemis student competition creation initiative.
+\item Design lander simulation environment using ROS2 and Gazebo to test flight software and host competition challenges.
+\item Write hardware and software libraries to run flight control software, process sensor data and communicate with ground station.
+% \item Manage software development pipeline as technical lead with GitLab, Microsoft Project and Confluence.
+% \item Setup code repository environment for teams to upload and test code on Gitlab using workflows and custom test scripts.
+\end{itemize}
+
+\cvsubsection{Technocrats, Student Programmer}[August 2014-May 2016]
+
+\begin{itemize}
+\item Developed framework to enable robot control with a PS4 controller and android application using bluetooth communication.
+\item Designed algorithm to power differential drive and PID controller for robot's base motors.
+\item Integrated distance sensors, color sensor and object detection utilizing pi-camera for collision avoidance system.
+% \item Developed code to integrate sensors and control robot to move and compete in the environment designed as part of \href{https://en.wikipedia.org/wiki/ABU_Robocon}{ABU Robocon}.
+\end{itemize}
+
+\section{Professional Experience}
+
+%% Another custom command provide by scimisc-cv.sty.
+%% First two argumetns are typeset on the first line in bold; 3rd and 4th arguments are typset on second line in italics. 2nd, 3rd and 4th arguments are OPTIONAL
+\cvsubsection{Microsoft, Software Developer}[July 2017-May 2019]
+
+\begin{itemize}
+\item Created automation scripts using .Net Web Jobs, Azure logic app and Azure functions to streamline business requirements.
+\item Coordinated and integrated vendor services into application with O365 security and authentication.
+\item Configured and customizing Dynamics 365 environment for businesses with custom plugins and client side scripts.
+\end{itemize}
+
+\cvsubsection{Ariose Software, Software Developer Intern}[January 2017-June 2017]
+
+\begin{itemize}
+    \item Developed application to monitor system resources and processes running on company servers.
+    \item Added functionality to create custom rule scripts for individual servers which can be updated in realtime from monitoring server.
+    \item Structured daily reports to be shared via email and report policy violations to system administrator.
+\end{itemize}
+
+\cvsubsection{R2 Robotics, Engineer Intern}[November 2015-April 2016]
+
+\begin{itemize}
+\item Developed software to communicate and command robot on RF communication and send real-time video feed.
+\item Fabricated a scissor lift to elevate the robot to align equipment and added track wheels to move it in rough terrain.
+\item Designed user interface for managing robot and show real-time telemetry.
+\end{itemize}
+
+
+
+%% ----------------------Key Projects---------------------
+
+\section{Projects}
+% \cvsubsection{\href{https://github.com/antarikshnarain/Self-Organizing-Robots}{Self Organizing Robots}}[September 2020-Present]
+% \cvsubsection{Self Organizing Robots}[September 2020-Present]
+% \begin{itemize}
+%     \item Developing software simulation in Gazebo with OpenMP to arrange robots in predesigned shape. The robots communicate on a decentralized network with limited scope, maps the environment using SLAM and organize themselves using path planning algorithm.
+% \end{itemize}
+
+\cvsubsection{\href{https://github.com/antarikshnarain/Estimating-t95-HydraulicConductivityMap}{Estimating Arrival time for a Hydraulic Conductivity Map}}[September 2020-November 2020]
+\begin{itemize}
+    \item Developed parallel computation framework using OpenMP and convolutional neural network wtih keras in python and C++ to estimate t-95 for a hydraulic conductivity map. The system was trained on USC's HPC system and obtained a correlation of 81.1\%.
+\end{itemize}
+
+\cvsubsection{\href{https://github.com/antarikshnarain/GLAT}{Geo Linked Attachments and Tags}}[January 2017-May 2017]
+\begin{itemize}
+    \item Created an Android application where users can tag messages to objects in environment. These messages are retrieved based on localization of user's position and camera feed with HAAR cascades to identify tagged objects.
+\end{itemize}
+
+% \cvsubsection{Cat and Dog Classifier}[July 2016-November 2016]
+% \begin{itemize}
+%     \item Designed machine learning model using python with tensorflow to solve Kaggle problem of Cat and Dog classifier. Accuracy: 89.388\%.
+% \end{itemize}
+
+\cvsubsection{\href{https://github.com/antarikshnarain/ContentRecommendationForArticles}{Content Recommendation for Articles}}[January 2016-May 2016]
+\begin{itemize}
+    \item Designed an application in python to recommend related articles from dataset and web based on input write-up. The software uses natural language processing (using nltk) with a web crawler to search and recommend content to user.
+\end{itemize}
+
+\cvsubsection{\href{https://github.com/antarikshnarain/GRIT}{Gesture Recognition Interpretation and Transmission}}[July 2015-November 2015]
+\begin{itemize}
+    \item Built an application on MATLAB to recognize different hand gestures and interpret input as actions or words. The software identifies handwritten words and shares it as text on the network by a messaging application.
+    % \item The system I am most proud of is the project I did during my college, Gesture Recognition Interpretation and Transmission (GRIT). We were a team of two, who started with an idea of building a simple hand writing recognition software. Because we recently learnt how to use MATLAB we decided to build the application on it. Once we started building the application we realized its potential and started working on a system that allows real time handwriting recognition and transmits it as a message. To make it more accessible we added air gestures to use the application. It was a cool project, where I learnt how to distribute workload and learnt how to collaborate and integrate different sets of modules. Also had to read beyond the books to make things work real-time and how to parallelize the application to keep the user experience as smooth as possible.
+\end{itemize}
+
+\cvsubsection{\href{https://github.com/antarikshnarain/RIoT}{Regulated IoT}}[July 2015-November 2015]
+\begin{itemize}
+    \item Synthesized a hardware prototype to convert a normal switchboard to IoT enabled. It uses relays to supplant switches, optocoupler to replace regulator and a current sensor to calculate power usage. The web application allows users to control voltages remotely.
+\end{itemize}
+
+
+\section{Technical Skills}
+{\setlength\multicolsep{1pt}%
+\begin{multicols}{2}
+\begin{itemize}
+\item \textbf{Programming Languages:} C++, C\#, Python, MATLAB
+\item \textbf{Robotics:} ROS, Gazebo
+\item \textbf{Frameworks:} Django, MVC, OpenCV, OpenMP, CUDA
+\item \textbf{Database Technologies:} SQL, MongoDB
+\item \textbf{SAAS:} Azure Function Apps, Bot Framework
+\item \textbf{Hardware:} Raspberry Pi, Adruino
+\item \textbf{Sensors:} MPU6050, Laser Sensor, Ultrasonic
+\item \textbf{Operating Systems:} Linux(Distro: Mint), Windows
+\item \textbf{Web Technologies:} HTML, JavaScript, TypeScript, CSS
+\item \textbf{Source Control:} Github, Team Foundation Server
+\end{itemize}
+\end{multicols}
+
+% \section{Publications}
+
+% \begin{itemize}
+%     \item Generation-II Lunar entry approach platform for research on ground: A Novel Concept For Low Cost, \textbf{High Longevity Autonomous Operations} on the moon - \href{https://iac2020.vfairs.com/}{71st IAC}
+% \end{itemize}
+ 
+\end{document}

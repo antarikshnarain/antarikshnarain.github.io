@@ -1,0 +1,6 @@
+texlive
+texlive-base
+texlive-binaries
+texlive-font-extra
+texlive-bibtex-extra
+texlive-latex-base

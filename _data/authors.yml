@@ -5,18 +5,16 @@
 
 Antariksh Narain:
   name        : "Antariksh Narain"
-  bio         : "Where dreams meet reality."
+  bio         : "Any sufficiently advanced technology is indistinguishable from magic - Arthur C. Clarke"
   avatar      : "/assets/images/bio-photo.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:antariksh.cloud@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/extravagantman"
+    - label: "LinkedIn"
+      icon: "fas fa fa-linkedin"
+      url: "https://linkedin.com/in/antarikshnarain"
+
 
 # Cornelius Fiddlebone:
 #   name        : "Cornelius Fiddlebone"
